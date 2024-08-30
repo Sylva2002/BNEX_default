@@ -18,3 +18,50 @@ grid-template-columns: minmax(2em,1fr) repeat(12,minmax(auto,10em)) minmax(2em,1
 {
   grid-column:2/8
 }
+.grid_2-6
+{
+  grid-column: 2/6;
+}
+.grid_2-4
+{
+  grid-column: 2/4
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width :1024px) 
+{
+  .logo
+  {
+    display: none;
+  }
+  .menu
+  {
+    display: none
+  }
+  .Frame
+  {
+    display: none;
+  }
+  .Frame-1_background
+  {
+    display: none;
+  }
+  .Frame-2_background
+  {
+    
+  }
+  .CSSgal
+  {
+    display: none;
+  }
+  .CSSgal_1
+  {
+    display: none;
+  }
+  .Frame-13
+  {
+    display: none;
+  }
+  .Frame-14
+  {
+    display: none;
+  }
