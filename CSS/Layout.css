@@ -4,7 +4,6 @@ box-sizing: border-box;
 display: grid;
 grid-template-columns: minmax(2em,1fr) repeat(12,minmax(auto,10em)) minmax(2em,1fr);
  }
-
  
 .grid_2-14
 {
